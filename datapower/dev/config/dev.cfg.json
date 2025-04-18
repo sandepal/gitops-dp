@@ -1,6 +1,6 @@
 {
   "@build":"372844",
-  "@timestamp":"Fri Apr 18 03:27:28 2025",
+  "@timestamp":"Fri Apr 18 03:54:02 2025",
   "configuration":[
     {
       "DomainSettings":{
@@ -1065,7 +1065,7 @@
         "@name":"http-6055",
         "mAdminState":"enabled",
         "LocalAddress":"0.0.0.0",
-        "LocalPort":"{{ change_HTTPSourceProtocolHandler_http-6055_LocalPort }}",
+        "LocalPort":6055,
         "HTTPVersion":"HTTP/1.1",
         "AllowedFeatures":{
           "HTTP-1.0":"on",
