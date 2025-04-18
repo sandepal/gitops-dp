@@ -1,0 +1,24 @@
+{
+  "@build":"372844",
+  "@timestamp":"Fri Apr 18 03:53:24 2025",
+  "configuration":[
+    {
+      "GitOpsTemplate":{
+        "@name":"Port",
+        "mAdminState":"enabled",
+        "Templates":[
+          {
+            "TemplateType":"custom",
+            "ClassName":"HTTPSourceProtocolHandler",
+            "Name":"http-6055",
+            "Field":"LocalPort",
+            "Value":"$(FRONT_PORT)",
+            "ValueInverse":"{{ change_HTTPSourceProtocolHandler_http-6055_LocalPort }}",
+            "ValueValidate":null
+          }
+        ],
+        "VariableRef":"gitops-variables"
+      }
+    }
+  ]
+}
